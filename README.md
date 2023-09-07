@@ -27,4 +27,3 @@ Deon's Music Player was created by myself.
   - TextView
   - ImageView
   - Seekbar
-  - ProgressBar
