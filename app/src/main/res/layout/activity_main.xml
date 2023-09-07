@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e0e0e0"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/songs_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/orange_juice"
+        android:padding="10dp"
+        android:text="Songs"
+        android:textColor="#2a2a2a"
+        android:textSize="42sp" />
+
+    <TextView
+        android:id="@+id/no_songs_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="NO SONGS FOUND"
+        android:visibility="gone" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/songs_text"
+        tools:listitem="@layout/recycler_item" />
+
+
+</RelativeLayout>

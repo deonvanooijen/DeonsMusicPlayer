@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="700"
+        android:font="@font/always_forever" />
+
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/cartoon_blocks" />
+
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/orange_juice" />
+
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="700"
+        android:font="@font/shorelines_script" />
+
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/viagram" />
+
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/national_cartoon" />
+
+</font-family>
