@@ -17,6 +17,8 @@ Deon's Music Player was created by myself.
 <h5>
   
 * Java
+* Media Player
+* Repeat Song Function
 
 * ViewGroup
   - RelativeLayout
